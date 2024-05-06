@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Section</title>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<style>
+  .about-section {
+    text-align: center;
+    padding: 50px 0;
+  }
+  .about-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  .about-section img {
+    width: 200px; /* Adjust the size as needed */
+    height: 200px;
+    border-radius: 50%; /* Makes the image round */
+    margin-bottom: 20px;
+  }
+  .about-section p {
+    color: #333;
+  }
+
+  /* Additional CSS for Projects Section */
+/* Additional CSS for Projects Section */
+.projects-section h2 {
+  margin-bottom: 40px;
+  font-size: 3rem;
+}
+.card {
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Adds a subtle shadow around the card */
+  height: 100%; /* Set a fixed height for the card */
+}
+.card-img-top {
+  height: 200px; /* Set a fixed height for the image */
+  object-fit: cover; /* This makes sure the image covers the area properly */
+}
+.card-body {
+  padding: 15px;
+}
+.card-title {
+  font-size: 2.00rem;
+}
+.card-text {
+  margin-bottom: 20px;
+}
+
+
+/* Additional CSS for Skills Section */
+.skills-section h2 {
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+}
+.skills-section .card {
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.skills-section .card-img-top {
+  padding: 20px; /* Add padding around your images if needed */
+  background-color: #f8f9fa; /* Adjust the background color if your images have transparent areas */
+  height: 180px; /* Fixed height for consistency */
+  object-fit: contain; /* This will make sure the image is scaled properly within the container */
+}
+.skills-section .card-body {
+  padding: 15px;
+}
+.skills-section .card-title {
+  font-size: 1.25rem;
+  margin-bottom: 15px;
+}
+.skills-section .btn-outline-primary {
+  color: #007bff;
+  border-color: #007bff;
+}
+.skills-section .btn-outline-primary:hover {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+/* Additional CSS for Contact Section */
+.contact-section {
+  padding: 50px 0;
+}
+.contact-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+.contact-section p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+.social-icon {
+  width: 50px; /* Size of your icons */
+  margin-bottom: 10px;
+}
+/* Hover effect for icons */
+.social-icon:hover {
+  opacity: 0.7;
+}
+/* Style for links in the Contact section */
+.contact-section a {
+  color: #fff;
+  text-decoration: none; /* Removes underline from links */
+  display: inline-block; /* Allows for margin on the bottom */
+  margin-bottom: 10px;
+}
+.contact-section a:hover {
+  color: #ddd; /* Color when hovering over the link */
+}
+
+/* CSS for Sticky Navbar */
+.navbar {
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Adds a shadow for depth */
+}
+
+/* Ensure padding is added to body to avoid content being hidden behind the navbar */
+body { 
+  padding-top: 56px; /* Adjust this value based on the height of your navbar */
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Style for navigation bar links */
+.navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f8f9fa; /* Slightly lighter white when hovering over links */
+}
+
+/* Media query for responsive navbar collapsing */
+@media (max-width: 992px) {
+  .navbar-collapse {
+    background-color: #343a40; /* Same as navbar color for seamless look */
+  }
+}
+
+
+</style>
+
+</head>
+<body>
+
+<section id='about' class="about-section">
+  <div class="container">
+    <h2>About</h2>
+    <img src="images/about/2.jpg" alt="About Me">
+    <p>As a highly skilled software engineer professional, I am passionate about creating innovative solutions that push the boundaries of what is possible. With a strong background in software development, I have a track record of success in designing and implementing complex systems that meet business requirements and drive results.
+    </p>
+    <p>With expertise in a variety of programming languages and development tools, I am constantly seeking out new challenges and opportunities to learn and grow as a professional. Whether collaborating with a team or working independently, I am committed to delivering high-quality solutions that exceed expectations.
+    </p>
+    <p>If you're looking for a driven, creative, and detail-oriented software engineer professional to join your team, I would love to connect and explore potential opportunities. Let's innovate together and make a difference in the world of software development.
+    </p>
+  </div>
+</section>
+
+
+<!-- Projects Section -->
+<section id="projects" class="projects-section bg-light" id="projects">
+  <div class="container">
+    <h2 class="text-center">Data Science Projects</h2>
+    <div class="row">
+      <!-- Project 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/projects/1.jpg" class="card-img-top" alt="Project 1">
+          <div class="card-body">
+            <h5 class="card-title">ShinyAnonymizer:A tool For Anonymizing Health Data</h5>
+            <p class="card-text"> A tool enabling non-expert users to use and
+              combine state-of-the-art privacy models for the protection of Data</p>
+            <a href="https://github.com/mariosggg/ShinyAnonymizer" class="btn btn-secondary">Source Code</a> <ul class="list-unstyled mt-3">
+          </div>
+        </div>
+      </div>
+      <!-- Project 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/projects/2.jpg" class="card-img-top" alt="Project 2">
+          <div class="card-body">
+            <h5 class="card-title">Epsilon Ontology Evaluation System</h5>
+            <p class="card-text">An online Evaluation system that shows metrics , statistics and pitfalls of Ontologies
+            </p>
+            <a href="#" class="btn btn-secondary">Source Code</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/projects/4.jpg" class="card-img-top" alt="Project 2">
+          <div class="card-body">
+            <h5 class="card-title">Kevin Cookie Company Dashboard</h5>
+            <p class="card-text">An online Evaluation system that shows metrics , statistics and pitfalls of Ontologies
+            </p>
+            <a href="#" class="btn btn-secondary">Source Code</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/projects/5.jpg" class="card-img-top" alt="Project 2">
+          <div class="card-body">
+            <h5 class="card-title">Fifa World Cup Rankings Dashboard</h5>
+            <p class="card-text">An online Evaluation system that shows metrics , statistics and pitfalls of Ontologies
+            </p>
+            <a href="#" class="btn btn-secondary">Source Code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+<section id="projects" class="projects-section bg-light" id="projects">
+  <div class="container">
+    <h2 class="text-center">Web development Projects</h2>
+    <div class="row">
+      <!-- Project 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/projects/6.jpg" class="card-img-top" alt="Project 1">
+          <div class="card-body">
+            <h5 class="card-title">Tourism and Disability</h5>
+            <p class="card-text">An online platform for people with Disabilities </p>
+            <a href="https://github.com/mariosggg/Project_Amea" class="btn btn-secondary">Source Code</a>
+          </div>
+        </div>
+      </div>
+      <!-- Project 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/projects/15.png" class="card-img-top" alt="Project 2">
+          <div class="card-body">
+            <h5 class="card-title">Personal new Portfolio</h5>
+            <p class="card-text">An online Personal New Portfolio to learn AngularJs
+            </p>
+            <a href="#" class="btn btn-secondary">Source Code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="skills-section bg-white" id="skills">
+  <div class="container">
+    <h2 class="text-center">Skills</h2>
+    <div class="row">
+      <!-- Skill 1 -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/1.png" class="card-img-top" alt="Python">
+          <div class="card-body">
+            <h5 class="card-title">Python</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/5.png" class="card-img-top" alt="R">
+          <div class="card-body">
+            <h5 class="card-title">R</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/6.png" class="card-img-top" alt="Javascript">
+          <div class="card-body">
+            <h5 class="card-title">Javascript</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/7.png" class="card-img-top" alt="PowerBi">
+          <div class="card-body">
+            <h5 class="card-title">PowerBi</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/8.png" class="card-img-top" alt="Postgresql">
+          <div class="card-body">
+            <h5 class="card-title">Postgresql</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/9.png" class="card-img-top" alt="Html5">
+          <div class="card-body">
+            <h5 class="card-title">Html5</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/10.png" class="card-img-top" alt="Visual Studio">
+          <div class="card-body">
+            <h5 class="card-title">Visual Studio</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/11.png" class="card-img-top" alt="Bootstrap">
+          <div class="card-body">
+            <h5 class="card-title">Bootstrap</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/12.png" class="card-img-top" alt="Pandas">
+          <div class="card-body">
+            <h5 class="card-title">Pandas</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/13.png" class="card-img-top" alt="Numpy">
+          <div class="card-body">
+            <h5 class="card-title">Numpy</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/14.png" class="card-img-top" alt="Plotly">
+          <div class="card-body">
+            <h5 class="card-title">Plotly</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+      <!-- Skill 2 -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/2.png" class="card-img-top" alt="Data Visualization">
+          <div class="card-body">
+            <h5 class="card-title">Data Visualization</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+      <!-- Skill 3 -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/3.png" class="card-img-top" alt="SQL" height="120px">
+          <div class="card-body">
+            <h5 class="card-title">SQL</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+      <!-- Skill 4 -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/4.png" class="card-img-top" alt="Data Storytelling">
+          <div class="card-body">
+            <h5 class="card-title">Data Storytelling</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Skills Section -->
+<section id="Publications" class="skills-section bg-white" id="Publications">
+  <div class="container">
+    <h2 class="text-center">Publications</h2>
+    <div class="row">
+      <ul>
+
+      
+        <li>
+(2024) M. Vardalachakis, M. Tampouratzis, K. Karampidis, G. Papadourakis, N. Papadakis, "The Future of Privacy: A Review on AI’s Role in Shaping Data Security" 5th International Conference in Electronic Engineering,Information Technology & Education (EEITE 2024), 29-31 May, Chania, Crete, Greece
+       </li>
+        <li>
+(2024) M. Tampouratzis, M. Vasilakis, M. Vardalachakis, M. Raftaki, G. Adamidis, M. Antonidakis "CircuitLib: A Case Study of Spin-Off e-Business in Embedded and Electronic Systems Development" 5th International Conference in Electronic Engineering, Information Technology & Education (EEITE 2024), 29-31 May, Chania, Crete, Greece
+        </li>
+        <li>
+          (2023) M. Vardalachakis, H. Kondylakis, M. Tampouratzis, N. Papadakis, N. Mastorakis "Anonymization, Hashing and Data Encryption Techniques: A Comparative Case Study" 3rd International Conference on Applied Mathematics & Computer Science (ICAMCS) Lefkada Island, Greece. August 8-10, 2023. 
+          Πρακτικά Συνεδρίου:http://doi.org/10.1109/ICAMCS59110.2023.00028
+        </li>
+        <li>
+          (2019) Vardalachakis, M., Kondylakis, H., Koumakis, L., Kouroubali, A., & Katehakis, D. G. ShinyAnonymizer: A Tool for Anonymizing Health Data. International Conference on Information and Communication Technologies for Ageing Well and e-Health (ICT4AWE), pp. 325- 332. 
+          Πρακτικά Συνεδρίου:http://doi.org/10.5220/0007798603250332
+        </li>
+      </ul>
+
+
+
+    </div>
+  </div>
+</section>
+</section>
+
+<!-- Contact Me Section -->
+<section id="contact" class="contact-section text-center text-white bg-dark">
+  <div class="container">
+    <h2>Contact Me</h2>
+    <div class="row">
+      <div class="col-lg-6">
+        <p><i class="fas fa-envelope"></i> mariosvardalachakis@gmail.com</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-2 col-md-4 mb-4">
+        <a href="https://www.linkedin.com/in/marios-vardalachakis-0994137a/" target="_blank">
+          <img src="icons/linkedin.png" alt="LinkedIn" class="social-icon">
+          LinkedIn
+        </a>
+      </div>
+      <div class="col-lg-2 col-md-4 mb-4">
+        <a href="https://github.com/mariosggg" target="_blank">
+          <img src="icons/github.png" alt="GitHub" class="social-icon">
+          GitHub
+        </a>
+      </div>
+      <div class="col-lg-2 col-md-4 mb-4">
+        <a href="https://www.researchgate.net/profile/Marios-Vardalachakis" target="_blank">
+          <img src="icons/ResearchGate.png" alt="YouTube" class="social-icon">
+          ResearchGate 
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Sticky Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#home">Portfolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Publications">Publications</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- Bootstrap JS and dependencies (jQuery and Popper) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.9.5/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
