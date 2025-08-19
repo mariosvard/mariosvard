@@ -3,10 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>About Section</title>
-<!-- Bootstrap CSS -->
+<meta name="description" content="Portfolio of Marios Vardalachakis, a software engineer specializing in AI, data privacy, and web development.">
+<meta name="keywords" content="Marios Vardalachakis, software engineer, AI, data privacy, web development, portfolio">
+<title>Marios Vardalachakis Portfolio</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-
 <style>
   .about-section {
     text-align: center;
@@ -17,550 +18,142 @@
     margin-bottom: 20px;
   }
   .about-section img {
-    width: 200px; /* Adjust the size as needed */
+    width: 200px;
     height: 200px;
-    border-radius: 50%; /* Makes the image round */
+    border-radius: 50%;
     margin-bottom: 20px;
   }
   .about-section p {
     color: #333;
   }
-
-
-  
-  /* Additional CSS for Projects Section */
-/* Additional CSS for Projects Section */
-/* Additional CSS for Projects Section */
-/* Additional CSS for Projects Section */
-/* Fix height and width for project cards */
-/* Fix height and width for project cards */
-/* Fix height and width for project cards */
-/* Fix height and width for project cards */
-/* Fix height and width for project cards */
-/* Additional CSS for Projects Section */
-/* Additional CSS for Projects Section */
-.projects-section h2 {
-  margin-bottom: 40px;
-  font-size: 3rem;
-}
-.card {
-  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Adds a subtle shadow around the card */
-  height: 100%; /* Set a fixed height for the card */
-}
-.card-img-top {
-  height: 200px; /* Set a fixed height for the image */
-  object-fit: cover; /* This makes sure the image covers the area properly */
-}
-.card-body {
-  padding: 3px;
-}
-.card-title {
-  font-size: 1rem;
-}
-.card-text {
-  margin-bottom: 10px;
-}
-
-/* Fix height and width for project cards */
-.card {
-  height: 100%;
-}
-
-/* Fix height and width for source code button */
-.btn-secondary {
-  width: 100%; /* Set the button width to 100% */
-  height: 50px; /* Set the button height */
-}
-
-
-
-
-
-
-
-/* Additional CSS for Skills Section */
-.skills-section h2 {
-  margin-bottom: 40px;
-  font-size: 2.5rem;
-}
-.skills-section .card {
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-}
-.skills-section .card-img-top {
-  padding: 20px; /* Add padding around your images if needed */
-  background-color: #f8f9fa; /* Adjust the background color if your images have transparent areas */
-  height: 180px; /* Fixed height for consistency */
-  object-fit: contain; /* This will make sure the image is scaled properly within the container */
-}
-.skills-section .card-body {
-  padding: 15px;
-}
-.skills-section .card-title {
-  font-size: 1.25rem;
-  margin-bottom: 15px;
-}
-.skills-section .btn-outline-primary {
-  color: #007bff;
-  border-color: #007bff;
-}
-.skills-section .btn-outline-primary:hover {
-  color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
-}
-
-/* Additional CSS for Contact Section */
-.contact-section {
-  padding: 50px 0;
-}
-.contact-section h2 {
-  font-size: 2.5rem;
-  margin-bottom: 40px;
-}
-.contact-section p {
-  font-size: 1.2rem;
-  margin-bottom: 20px;
-}
-.social-icon {
-  width: 50px; /* Size of your icons */
-  margin-bottom: 10px;
-}
-/* Hover effect for icons */
-.social-icon:hover {
-  opacity: 0.7;
-}
-/* Style for links in the Contact section */
-.contact-section a {
-  color: #fff;
-  text-decoration: none; /* Removes underline from links */
-  display: inline-block; /* Allows for margin on the bottom */
-  margin-bottom: 10px;
-}
-.contact-section a:hover {
-  color: #ddd; /* Color when hovering over the link */
-}
-
-/* CSS for Sticky Navbar */
-.navbar {
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Adds a shadow for depth */
-}
-
-/* Ensure padding is added to body to avoid content being hidden behind the navbar */
-body { 
-  padding-top: 56px; /* Adjust this value based on the height of your navbar */
-}
-
-/* Smooth scroll */
-html {
-  scroll-behavior: smooth;
-}
-
-/* Style for navigation bar links */
-.navbar-nav .nav-link {
-  color: white;
-}
-
-.navbar-nav .nav-link:hover {
-  color: #f8f9fa; /* Slightly lighter white when hovering over links */
-}
-
-/* Media query for responsive navbar collapsing */
-@media (max-width: 992px) {
-  .navbar-collapse {
-    background-color: #343a40; /* Same as navbar color for seamless look */
+  .projects-section h2 {
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+    text-align: center;
   }
-}
-
-
+  .projects-section .card {
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .projects-section .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  .projects-section .card-body {
+    padding: 15px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .projects-section .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+  }
+  .projects-section .card-text {
+    margin-bottom: 10px;
+    flex-grow: 1;
+  }
+  .projects-section .btn-secondary {
+    width: 100%;
+    height: 40px;
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  .skills-section h2 {
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+  }
+  .skills-section .card {
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  .skills-section .card-img-top {
+    padding: 20px;
+    background-color: #f8f9fa;
+    height: 180px;
+    object-fit: contain;
+  }
+  .skills-section .card-body {
+    padding: 15px;
+  }
+  .skills-section .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+  }
+  .skills-section .btn-outline-primary {
+    color: #007bff;
+    border-color: #007bff;
+  }
+  .skills-section .btn-outline-primary:hover {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  .contact-section {
+    padding: 50px 0;
+  }
+  .contact-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+  }
+  .contact-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  .social-icon {
+    width: 50px;
+    margin-bottom: 10px;
+  }
+  .social-icon:hover {
+    opacity: 0.7;
+  }
+  .contact-section a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  .contact-section a:hover {
+    color: #ddd;
+  }
+  .navbar {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  }
+  body {
+    padding-top: 56px;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  .navbar-nav .nav-link {
+    color: white;
+  }
+  .navbar-nav .nav-link:hover {
+    color: #f8f9fa;
+  }
+  @media (max-width: 992px) {
+    .navbar-collapse {
+      background-color: #343a40;
+    }
+  }
+  .publications-section h2 {
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .publications-section ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  .publications-section li {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+  }
 </style>
-
 </head>
 <body>
-
-<section id='about' class="about-section">
-  <div class="container">
-    <h2>About</h2>
-    <img src="images/about/marios.jpg" alt="About Me">
-    <p>Marios Vardalachakis is a software engineer who recently completed his first M.Sc in Electrical and Computer Engineering at the Hellenic Mediterranean University. His thesis,"ShinyAnonymizer Enhanced Version and Beyond," was published in the Applied Sciences journal in 2024, focusing on privacy-preserving solutions for health data management.
-    </p>
-    <p>He has participated in several R&D projects, most notably at the Computational Biomedicine Laboratory (FORTH), and has published five conference papers in international journals and conferences.
-    </p>
-    <p>His first presentation was on his B.Sc. thesis, "ShinyAnonymizer: A Tool for the Anonymization of Health Data," presented at the ICT4AWE Conference in 2019. Marios is currently pursuing his second M.Sc. in Intelligent Systems at the University of the Aegean, where he continues his research in software engineering, AI, cybersecurity, and data privacy.
-    </p>
-  </div>
-</section>
-<!-- Projects Section -->
-<section id="projects" class="projects-section bg-light" id="projects">
-  <div class="container">
-    <h2 class="text-center">Data Science & Ai Projects</h2>
-    <div class="row">
-      <!-- Project 1 -->
-      <div class="col-md-4 mb-4">
-        <div class="card">
-          <img src="images/projects/ShinyAnonymizer.jpg" class="card-img-top" alt="Project 1">
-          <div class="card-body">
-            <h1 class="card-title">ShinyAnonymizer:A tool For Anonymizing Health Data</h1>
-            <p class="card-text"> A tool enabling non-expert users to use and
- combine state-of-the-art privacy models for the protection of Data.</p>
-            <p>Skills :R, R-studio, Postgresql , Shiny, Plotly, PgCrypto </p>
-            <a href="https://github.com/mariosggg/ShinyAnonymizer" class="github-link">Github</a>
-            
-          </div>
-        </div>
-      </div>
-      <!-- Project 2 -->
-      <div class="col-md-4 mb-4">
-        <div class="card">
-          <img src="images/projects/EpsilonOntology.png" class="card-img-top" alt="Project 1">
-          <div class="card-body">
-            <h1 class="card-title">Epsilon Ontology Evaluation System: A tool that shows metrics , statistics  of ontologies</h1>
-            <p class="card-text"> Epsilon Ontology Evaluation System is created as part of a Semester project to apply the existing Evaluation Metrics.</p>
-            <p>Skills :Html, Css, Javascript ,Plotly, Virtuoso Universal Server , Rdf queries , SparkQL </p>
-            <a href="https://mariosggg.github.io/Epsilon_Ontology_Evaluation_System/" class="github-link">Github</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 mb-4">
-        <div class="card">
-          <img src="images/projects/KevinCookie.png" class="card-img-top" alt="Project 1">
-          <div class="card-body">
-            <h5 class="card-title">Kevin Cookie Company Financial Analysis Dashboard </h5>
-            <p class="card-text"> A business analysis for a multinational cookie manufacturing company to determine sales performance , marketing effectiveness and price optimization.</p>
-            <p>Skills:PowerBi </p>
-            <a href="https://github.com/mariosggg/PowerBi_Dashboards/blob/main/Kevin%20Cookie%20Company%20Report/Kevin%20Cookie%20Company%20Report.pdf">Github</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 mb-4">
-        <div class="card">
-          <img src="images/projects/FifaWorld.png" class="card-img-top" alt="Project 2">
-          <div class="card-body">
-            <h5 class="card-title">Fifa World Cup Rankings Dashboard</h5>
-            <p class="card-text">This Dashboard contains information about all matches and results that took place in Football/Soccer FIFA World cups from 1992 - 2023.
-            </p>
-            <p>Skills:PowerBi </p>
-            <a href="https://github.com/mariosggg/PowerBi_Dashboards/blob/main/Fifa%20World%20Rankings%201992-2023/FIFA%20WORLD%20RANKINGS%20FROM%201992-2023.pdf">Github</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 mb-4">
-        <div class="card">
-          <img src="images/projects/MarvelDc.jpg" class="card-img-top" alt="Project 2">
-          <div class="card-body">
-            <h5 class="card-title">Marvel VS Dc :Exploratory Data Analysis </h5>
-            <p class="card-text">Performing Exploratory Data Analysis techniques using Python to compare the characters of Marvel and DC with a focus on their gender.
-            </p>
-            <p>Skills:Python, Pandas , Seaborn , matplotlib </p>
-            <a href="https://github.com/mariosggg/Exploratory_Data_Analysis_in_Python/blob/main/Comics%20Dataset%20-Exploratory%20Data%20Analysis%20Project.ipynb">Github</a>
-          </div>
-        </div>
-      </div>
-
-
-
-
-    </div>
-  </div>
-</section>
-<section id="projects" class="projects-section bg-light" id="projects">
-  <div class="container">
-    <h2 class="text-center">Web development Projects</h2>
-    <div class="row">
-      <!-- Project 1 -->
-      <div class="col-md-4 mb-4">
-        <div class="card">
-          <img src="images/projects/Tourism.png" class="card-img-top" alt="Project 2">
-          <div class="card-body">
-            <h5 class="card-title">Tourism And Disability</h5>
-            <p class="card-text"> An online Personal website For Tourism with Disability
-            </p>
-            <p>Skills :Html, Css, Javascript , Virtuoso, Plotly </p>
-            <a href="https://mariosggg.github.io/Project_Amea/"> Github</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 mb-4">
-        <div class="card">
-          <img src="images/projects/OldPortfolio.png" class="card-img-top" alt="Project 2">
-          <div class="card-body">
-            <h5 class="card-title">My old Portfolio</h5>
-            <p class="card-text">
-              An online Personal website to Learn html and Css 
-            </p>
-            <p>Skills :Html , Css </p>
-           <p>  <a href="https://mariosggg.github.io/portfolio/">Github</a></p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</section>
-<!-- Skills Section -->
-<section id="skills" class="skills-section bg-white" id="skills">
-  <div class="container">
-    <h2 class="text-center">Skills</h2>
-    <div class="row">
-      <!-- Skill 1 -->
-      <div class="col-lg-3 col-md-6 mb-4">
-        <div class="card">
-          <img src="images/skills/1.png" class="card-img-top" alt="Python">
-          <div class="card-body">
-            <h5 class="card-title">Python</h5>
-            <p class="card-text"></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-6 mb-4">
-        <div class="card">
-          <img src="images/skills/r.png" class="card-img-top" alt="R">
-          <div class="card-body">
-            <h5 class="card-title">R</h5>
-            <p class="card-text"></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-6 mb-4">
-        <div class="card">
-          <img src="images/skills/javascript.png" class="card-img-top" alt="Javascript">
-          <div class="card-body">
-            <h5 class="card-title">Javascript</h5>
-            <p class="card-text"></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-6 mb-4">
-        <div class="card">
-          <img src="images/skills/powerbi.png" class="card-img-top" alt="PowerBi">
-          <div class="card-body">
-            <h5 class="card-title">PowerBi</h5>
-            <p class="card-text"></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-6 mb-4">
-        <div class="card">
-          <img src="images/skills/postgresql.png" class="card-img-top" alt="Postgresql">
-          <div class="card-body">
-            <h5 class="card-title">Postgresql</h5>
-            <p class="card-text"></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-6 mb-4">
-        <div class="card">
-          <img src="images/skills/html5.png" class="card-img-top" alt="Html5">
-          <div class="card-body">
-            <h5 class="card-title">Html5</h5>
-            <p class="card-text"></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-6 mb-4">
-        <div class="card">
-          <img src="images/skills/visualstudio.png" class="card-img-top" alt="Visual Studio">
-          <div class="card-body">
-            <h5 class="card-title">Visual Studio</h5>
-            <p class="card-text"></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-6 mb-4">
-        <div class="card">
-          <img src="images/skills/bootstrap.png" class="card-img-top" alt="Bootstrap">
-          <div class="card-body">
-            <h5 class="card-title">Bootstrap</h5>
-            <p class="card-text"></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-6 mb-4">
-        <div class="card">
-          <img src="images/skills/pandas.png" class="card-img-top" alt="Pandas">
-          <div class="card-body">
-            <h5 class="card-title">Pandas</h5>
-            <p class="card-text"></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-6 mb-4">
-        <div class="card">
-          <img src="images/skills/Numpy.png" class="card-img-top" alt="Numpy">
-          <div class="card-body">
-            <h5 class="card-title">Numpy</h5>
-            <p class="card-text"></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-6 mb-4">
-        <div class="card">
-          <img src="images/skills/plotly.png" class="card-img-top" alt="Plotly">
-          <div class="card-body">
-            <h5 class="card-title">Plotly</h5>
-            <p class="card-text"></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-6 mb-4">
-        <div class="card">
-          <img src="images/skills/Angular.png" class="card-img-top" alt="Angular">
-          <div class="card-body">
-            <h5 class="card-title">Angular</h5>
-            <p class="card-text"></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-6 mb-4">
-        <div class="card">
-          <img src="images/skills/css.png" class="card-img-top" alt="Css">
-          <div class="card-body">
-            <h5 class="card-title">Css</h5>
-            <p class="card-text"></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-6 mb-4">
-        <div class="card">
-          <img src="images/skills/d3.png" class="card-img-top" alt="d3.js">
-          <div class="card-body">
-            <h5 class="card-title">D3.js</h5>
-            <p class="card-text"></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-6 mb-4">
-        <div class="card">
-          <img src="images/skills/Shiny.png" class="card-img-top" alt="Shiny">
-          <div class="card-body">
-            <h5 class="card-title">Shiny</h5>
-            <p class="card-text"></p>
-          </div>
-        </div>
-      </div>
-      <!-- Skill 2 -->
-      <div class="col-lg-3 col-md-6 mb-4">
-        <div class="card">
-          <img src="images/skills/2.png" class="card-img-top" alt="Data Visualization">
-          <div class="card-body">
-            <h5 class="card-title">Data Visualization</h5>
-            <p class="card-text"></p>
-          </div>
-        </div>
-      </div>
-      <!-- Skill 3 -->
-      <div class="col-lg-3 col-md-6 mb-4">
-        <div class="card">
-          <img src="images/skills/3.png" class="card-img-top" alt="SQL" height="120px">
-          <div class="card-body">
-            <h5 class="card-title">SQL</h5>
-            <p class="card-text"></p>
-          </div>
-        </div>
-      </div>
-      <!-- Skill 4 -->
-      <div class="col-lg-3 col-md-6 mb-4">
-        <div class="card">
-          <img src="images/skills/4.png" class="card-img-top" alt="Data Storytelling">
-          <div class="card-body">
-            <h5 class="card-title">Data Storytelling</h5>
-            <p class="card-text"></p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Skills Section -->
-<section id="Publications" class="skills-section bg-white" id="Publications">
-  <div class="container">
-    <h2 class="text-center">Publications In Conferences </h2>
-    <div class="row">
-      <ul>
-
-      
- <li>
-    (2025) M. Vardalachakis, A. Siatras, C. Kalloniatis, "InviseeAI: Advanced Healthcare Data Anonymization Platform" 
-    The Sixteenth International Conference on Information, Intelligence, Systems and Applications (IISA 2025), 
-    Mytilene, Island of Lesbos, Greece, July 10-12, 2025. (Accepted and waiting to be Published)
-  </li>
-  <li>
-    (2025) M. Vardalachakis, C. Kalloniatis, "The Role of Anonymization Techniques in Differential Privacy" 
-    11th International Conference on Computer Technology Applications (ICCTA 2025), May 21-23, 2025, Vienna, Austria. 
-    (Accepted and waiting to be Published)
-  </li>
-  <li>
-    (2024) M. Vardalachakis, M. Tampouratzis, "Privacy Preservation in IoT: Anonymization Methods and Best Practices" 
-    5th International Conference on Communications, Information, Electronic and Energy System (CIEES 2024), 
-    20-22 Nov. 2024. 
-    Πρακτικά Συνεδρίου: <a href="https://doi.org/10.1109/CIEES62939.2024.10811203" target="_blank">https://doi.org/10.1109/CIEES62939.2024.10811203</a>
-  </li>
-  <li>
-    (2024) M. Vardalachakis, M. Tampouratzis, M. Vasilakis, N. Papadakis, "The Future of Privacy: A Review on AI’s Role in Shaping Data Security" 
-    IEEE 5th International Conference in Electronic Engineering, Information Technology & Education (EEITE 2024), 
-    29-31 May, Chania, Crete, Greece. 
-    Πρακτικά Συνεδρίου: <a href="https://doi.org/10.1109/EEITE61750.2024.10654397" target="_blank">https://doi.org/10.1109/EEITE61750.2024.10654397</a>
-  </li>
-  <li>
-    (2024) M. Tampouratzis, M. Vasilakis, M. Vardalachakis, M. Raftaki, G. Adamidis, M. Antonidakis, 
-    "CircuitLib: A Case Study of Spin-Off e-Business in Embedded and Electronic Systems Development" 
-    IEEE 5th International Conference in Electronic Engineering, Information Technology & Education (EEITE 2024), 
-    29-31 May, Chania, Crete, Greece. 
-    Πρακτικά Συνεδρίου: <a href="https://doi.org/10.1109/EEITE61750.2024.106544" target="_blank">https://doi.org/10.1109/EEITE61750.2024.106544</a>
-  </li>
-  <li>
-    (2023) M. Vardalachakis, H. Kondylakis, M. Tampouratzis, N. Papadakis, N. Mastorakis, 
-    "Anonymization, Hashing and Data Encryption Techniques: A Comparative Case Study" 
-    IEEE 3rd International Conference on Applied Mathematics & Computer Science (ICAMCS), 
-    Lefkada Island, Greece. August 8-10, 2023. 
-    Πρακτικά Συνεδρίου: <a href="https://doi.org/10.1109/ICAMCS59110.2023.00028" target="_blank">https://doi.org/10.1109/ICAMCS59110.2023.00028</a>
-  </li>
-  <li>
-    (2019) M. Vardalachakis, H. Kondylakis, L. Koumakis, A. Kouroubali, D. G. Katehakis, 
-    "ShinyAnonymizer: A Tool for Anonymizing Health Data" 
-    International Conference on Information and Communication Technologies for Ageing Well and e-Health (ICT4AWE), pp. 325-332. 
-    Πρακτικά Συνεδρίου: <a href="https://doi.org/10.5220/0007798603250332" target="_blank">https://doi.org/10.5220/0007798603250332</a>
-  </li>
-      </ul>
-
-
-
-    </div>
-  </div>
-</section>
-</section>
-
-<!-- Contact Me Section -->
-<section id="contact" class="contact-section text-center text-white bg-dark">
-  <div class="container">
-    <h2>Contact Me</h2>
-    <div class="row">
-      <div class="col-lg-6">
-        <p><i class="fas fa-envelope"></i> mariosvardalachakis@gmail.com</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-2 col-md-4 mb-4">
-        <a href="https://www.linkedin.com/in/marios-vardalachakis-0994137a/" target="_blank">
-          <img src="icons/linkedin.png" alt="LinkedIn" class="social-icon">
-          LinkedIn
-        </a>
-      </div>
-      <div class="col-lg-2 col-md-4 mb-4">
-        <a href="https://github.com/mariosggg" target="_blank">
-          <img src="icons/github.png" alt="GitHub" class="social-icon">
-          GitHub
-        </a>
-      </div>
-      <div class="col-lg-2 col-md-4 mb-4">
-        <a href="https://www.researchgate.net/profile/Marios-Vardalachakis" target="_blank">
-          <img src="icons/ResearchGate.png" alt="YouTube" class="social-icon">
-          ResearchGate 
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Sticky Navigation Bar -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
   <div class="container">
     <a class="navbar-brand" href="#home">Marios Vardalachakis</a>
@@ -589,11 +182,437 @@ html {
   </div>
 </nav>
 
+<section id='about' class="about-section">
+  <div class="container">
+    <h2>About</h2>
+    <img src="images/about/marios.jpg" alt="Profile picture of Marios Vardalachakis">
+    <p>Marios Vardalachakis is a software engineer who recently completed his first M.Sc in Electrical and Computer Engineering at the Hellenic Mediterranean University. His thesis, "ShinyAnonymizer Enhanced Version and Beyond," was published in the Applied Sciences journal in 2024, focusing on privacy-preserving solutions for health data management.</p>
+    <p>He has participated in several R&D projects, most notably at the Computational Biomedicine Laboratory (FORTH), and has published five conference papers in international journals and conferences.</p>
+    <p>His first presentation was on his B.Sc. thesis, "ShinyAnonymizer: A Tool for the Anonymization of Health Data," presented at the ICT4AWE Conference in 2019. Marios is currently pursuing his second M.Sc. in Intelligent Systems at the University of the Aegean, where he continues his research in software engineering, AI, cybersecurity, and data privacy.</p>
+  </div>
+</section>
 
-<!-- Bootstrap JS and dependencies (jQuery and Popper) -->
+<section id="projects" class="projects-section bg-light">
+  <div class="container">
+    <h2>AI & Data Projects</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/projects/InviseeAi.jpg" class="card-img-top" alt="InviseeAI project preview">
+          <div class="card-body">
+            <h5 class="card-title">InviseeAI: Advanced Healthcare Data Anonymization Platform</h5>
+            <p class="card-text">InviseeAI is a privacy-enhancing platform that protects sensitive patient data using advanced anonymization methods like k-anonymity, l-diversity, t-closeness, and differential privacy. Through secure multiparty computation (SMPC) and federated learning, it enables decentralized healthcare data analysis while ensuring compliance and security.</p>
+            <p>Skills: R, RStudio, PostgreSQL, Shiny, Plotly</p>
+            <a href="https://github.com/mariosggg/InviseeAi" class="btn btn-secondary">GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/projects/ShinyAnonymizer.jpg" class="card-img-top" alt="ShinyAnonymizer project preview">
+          <div class="card-body">
+            <h5 class="card-title">ShinyAnonymizer: A Tool for Anonymizing Health Data</h5>
+            <p class="card-text">A tool enabling non-expert users to use and combine state-of-the-art privacy models for the protection of data.</p>
+            <p>Skills: R, RStudio, PostgreSQL, Shiny, Plotly, PgCrypto</p>
+            <a href="https://github.com/mariosggg/ShinyAnonymizer" class="btn btn-secondary">GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/projects/EpsilonOntology.png" class="card-img-top" alt="Epsilon Ontology Evaluation System preview">
+          <div class="card-body">
+            <h5 class="card-title">Epsilon Ontology Evaluation System</h5>
+            <p class="card-text">Epsilon Ontology Evaluation System is created as part of a semester project to apply existing evaluation metrics for ontologies.</p>
+            <p>Skills: HTML, CSS, JavaScript, Plotly, Virtuoso Universal Server, RDF Queries, SPARQL</p>
+            <a href="https://mariosggg.github.io/Epsilon_Ontology_Evaluation_System/" class="btn btn-secondary">GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/projects/Cybercrime_Dashboard.jpg" class="card-img-top" alt="Interactive Cybercrime Dashboard">
+          <div class="card-body">
+            <h5 class="card-title">Interactive Cybercrime Dashboard</h5>
+            <p class="card-text">This dashboard presents global cybercrime complaints and financial losses data.
+              It highlights key stats like total complaints, total losses, top countries, and average losses per complaint..</p>
+            <p>Skills: HTML, CSS, JavaScript, D3.js,Dc.js,Crossfilter.js</p>
+            <a href="https://mariosggg.github.io/IncidentResponse/" class="btn btn-secondary">GitHub</a>
+          </div>
+        </div>
+      </div>
+<div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/projects/IOT.jpg" class="card-img-top" alt="IIoT Malware Intelligence Dashboard">
+          <div class="card-body">
+            <h5 class="card-title">IIoT Malware Intelligence Dashboard</h5>
+            <p class="card-text">This dashboard provides a high-level overview of network security threats, showcasing key metrics like total records and denied packets. It visualizes data on attack types, threat intensity, and protocol usage to help analysts quickly assess the security posture.</p>
+            <p>Skills: HTML, CSS, JavaScript, D3.js,Dc.js,Crossfilter.js</p>
+            <a href="https://mariosggg.github.io/IotMalware_Dashboard/" class="btn btn-secondary">GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/projects/FifaWorld.png" class="card-img-top" alt="Fifa World Cup Rankings Dashboard preview">
+          <div class="card-body">
+            <h5 class="card-title">Fifa World Cup Rankings Dashboard</h5>
+            <p class="card-text">This dashboard contains information about all matches and results that took place in Football/Soccer FIFA World Cups from 1992 - 2023.</p>
+            <p>Skills: PowerBI</p>
+            <a href="https://github.com/mariosggg/PowerBi_Dashboards" class="btn btn-secondary">GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/projects/MarvelDc.jpg" class="card-img-top" alt="Marvel vs DC Exploratory Data Analysis preview">
+          <div class="card-body">
+            <h5 class="card-title">Marvel vs DC: Exploratory Data Analysis</h5>
+            <p class="card-text">Performing exploratory data analysis techniques using Python to compare the characters of Marvel and DC with a focus on their gender.</p>
+            <p>Skills: Python, Pandas, Seaborn, Matplotlib</p>
+            <a href="https://github.com/mariosggg/Exploratory_Data_Analysis_in_Python" class="btn btn-secondary">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="web-projects" class="projects-section bg-light">
+  <div class="container">
+    <h2>Web Development Projects</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/projects/Tourism.png" class="card-img-top" alt="Tourism and Disability project preview">
+          <div class="card-body">
+            <h5 class="card-title">Tourism and Disability</h5>
+            <p class="card-text">An online personal website for tourism with disability.</p>
+            <p>Skills: HTML, CSS, JavaScript, Virtuoso, Plotly</p>
+            <a href="https://mariosggg.github.io/Project_Amea/" class="btn btn-secondary">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="skills-section bg-white">
+  <div class="container">
+    <h2 class="text-center">Skills</h2>
+    <div class="row">
+      <!-- Python -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/1.png" class="card-img-top" alt="Python logo">
+          <div class="card-body">
+            <h5 class="card-title">Python</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- R -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/r.png" class="card-img-top" alt="R logo">
+          <div class="card-body">
+            <h5 class="card-title">R</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- JavaScript -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/javascript.png" class="card-img-top" alt="JavaScript logo">
+          <div class="card-body">
+            <h5 class="card-title">JavaScript</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- PowerBI -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/powerbi.png" class="card-img-top" alt="Power BI logo">
+          <div class="card-body">
+            <h5 class="card-title">Power BI</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- PostgreSQL -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/postgresql.png" class="card-img-top" alt="PostgreSQL logo">
+          <div class="card-body">
+            <h5 class="card-title">PostgreSQL</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- HTML5 -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/html5.png" class="card-img-top" alt="HTML5 logo">
+          <div class="card-body">
+            <h5 class="card-title">HTML5</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- Visual Studio -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/visualstudio.png" class="card-img-top" alt="Visual Studio logo">
+          <div class="card-body">
+            <h5 class="card-title">Visual Studio</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bootstrap -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/bootstrap.png" class="card-img-top" alt="Bootstrap logo">
+          <div class="card-body">
+            <h5 class="card-title">Bootstrap</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pandas -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/pandas.png" class="card-img-top" alt="Pandas logo">
+          <div class="card-body">
+            <h5 class="card-title">Pandas</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- NumPy -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/numpy.png" class="card-img-top" alt="NumPy logo">
+          <div class="card-body">
+            <h5 class="card-title">NumPy</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- Plotly -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/plotly.png" class="card-img-top" alt="Plotly logo">
+          <div class="card-body">
+            <h5 class="card-title">Plotly</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- Angular -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/angular.png" class="card-img-top" alt="Angular logo">
+          <div class="card-body">
+            <h5 class="card-title">Angular</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- CSS -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/css.png" class="card-img-top" alt="CSS logo">
+          <div class="card-body">
+            <h5 class="card-title">CSS</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- D3.js -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/d3.png" class="card-img-top" alt="D3.js logo">
+          <div class="card-body">
+            <h5 class="card-title">D3.js</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- Shiny -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/shiny.png" class="card-img-top" alt="Shiny logo">
+          <div class="card-body">
+            <h5 class="card-title">Shiny</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- Data Visualization -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/2.png" class="card-img-top" alt="Data Visualization icon">
+          <div class="card-body">
+            <h5 class="card-title">Data Visualization</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- SQL -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/3.png" class="card-img-top" alt="SQL logo">
+          <div class="card-body">
+            <h5 class="card-title">SQL</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- Data Storytelling -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/4.png" class="card-img-top" alt="Data Storytelling icon">
+          <div class="card-body">
+            <h5 class="card-title">Data Storytelling</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dc -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/dc.png" class="card-img-top" alt="Dc logo">
+          <div class="card-body">
+            <h5 class="card-title">Dc</h5>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/crossfilter.png" class="card-img-top" alt="Crossfilter logo">
+          <div class="card-body">
+            <h5 class="card-title">Crossfilter</h5>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+</section>
+
+<section id="journals" class="publications-section bg-white">
+  <div class="container">
+    <h2>Publications in Journals</h2>
+    <ul>
+      <li>
+        (2024) M. Vardalachakis, N. Papadakis, M. Tampouratzis, “ShinyAnonymizer enhanced version and Beyond: A further exploration of Privacy Preserving Solutions in Health Data Management”, Applied Sciences Journal, Section: Computing and Artificial Intelligence, Special Issue: Data Visualization Techniques: Advantages & Applications.
+        <a href="https://doi.org/10.3390/app14166921" target="_blank">https://doi.org/10.3390/app14166921</a>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section id="Publications" class="publications-section bg-white">
+  <div class="container">
+    <h2>Publications in Conferences</h2>
+    <ul>
+      <li>
+        (2025) M. Vardalachakis, A. Siatras, C. Kalloniatis, "InviseeAI: Advanced Healthcare Data Anonymization Platform" 
+        The Sixteenth International Conference on Information, Intelligence, Systems and Applications (IISA 2025), 
+        Mytilene, Island of Lesbos, Greece, July 10-12, 2025. (Accepted and waiting to be Published)
+      </li>
+      <li>
+        (2025) M. Vardalachakis, C. Kalloniatis, "The Role of Anonymization Techniques in Differential Privacy" 
+        11th International Conference on Computer Technology Applications (ICCTA 2025), May 21-23, 2025, Vienna, Austria. 
+        (Accepted and waiting to be Published)
+      </li>
+      <li>
+        (2024) M. Vardalachakis, M. Tampouratzis, "Privacy Preservation in IoT: Anonymization Methods and Best Practices" 
+        5th International Conference on Communications, Information, Electronic and Energy System (CIEES 2024), 
+        20-22 Nov. 2024. 
+        <a href="https://doi.org/10.1109/CIEES62939.2024.10811203" target="_blank">https://doi.org/10.1109/CIEES62939.2024.10811203</a>
+      </li>
+      <li>
+        (2024) M. Vardalachakis, M. Tampouratzis, M. Vasilakis, N. Papadakis, "The Future of Privacy: A Review on AI’s Role in Shaping Data Security" 
+        IEEE 5th International Conference in Electronic Engineering, Information Technology & Education (EEITE 2024), 
+        29-31 May, Chania, Crete, Greece. 
+        <a href="https://doi.org/10.1109/EEITE61750.2024.10654397" target="_blank">https://doi.org/10.1109/EEITE61750.2024.10654397</a>
+      </li>
+      <li>
+        (2024) M. Tampouratzis, M. Vasilakis, M. Vardalachakis, M. Raftaki, G. Adamidis, M. Antonidakis, 
+        "CircuitLib: A Case Study of Spin-Off e-Business in Embedded and Electronic Systems Development" 
+        IEEE 5th International Conference in Electronic Engineering, Information Technology & Education (EEITE 2024), 
+        29-31 May, Chania, Crete, Greece. 
+        <a href="https://doi.org/10.1109/EEITE61750.2024.106544" target="_blank">https://doi.org/10.1109/EEITE61750.2024.106544</a>
+      </li>
+      <li>
+        (2023) M. Vardalachakis, H. Kondylakis, M. Tampouratzis, N. Papadakis, N. Mastorakis, 
+        "Anonymization, Hashing and Data Encryption Techniques: A Comparative Case Study" 
+        IEEE 3rd International Conference on Applied Mathematics & Computer Science (ICAMCS), 
+        Lefkada Island, Greece. August 8-10, 2023. 
+        <a href="https://doi.org/10.1109/ICAMCS59110.2023.00028" target="_blank">https://doi.org/10.1109/ICAMCS59110.2023.00028</a>
+      </li>
+      <li>
+        (2019) M. Vardalachakis, H. Kondylakis, L. Koumakis, A. Kouroubali, D. G. Katehakis, 
+        "ShinyAnonymizer: A Tool for Anonymizing Health Data" 
+        International Conference on Information and Communication Technologies for Ageing Well and e-Health (ICT4AWE), pp. 325-332. 
+        <a href="https://doi.org/10.5220/0007798603250332" target="_blank">https://doi.org/10.5220/0007798603250332</a>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section id="contact" class="contact-section text-center text-white bg-dark">
+  <div class="container">
+    <h2>Contact Me</h2>
+    <div class="row">
+      <div class="col-lg-6">
+        <p><i class="fas fa-envelope"></i> mariosvardalachakis@gmail.com</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-2 col-md-4 mb-4">
+        <a href="https://www.linkedin.com/in/marios-vardalachakis-0994137a/" target="_blank">
+          <img src="icons/linkedin.png" alt="LinkedIn profile" class="social-icon">
+          LinkedIn
+        </a>
+      </div>
+      <div class="col-lg-2 col-md-4 mb-4">
+        <a href="https://github.com/mariosggg" target="_blank">
+          <img src="icons/github.png" alt="GitHub profile" class="social-icon">
+          GitHub
+        </a>
+      </div>
+      <div class="col-lg-2 col-md-4 mb-4">
+        <a href="https://www.researchgate.net/profile/Marios-Vardalachakis" target="_blank">
+          <img src="icons/ResearchGate.png" alt="ResearchGate profile" class="social-icon">
+          ResearchGate
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.9.5/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+      e.preventDefault();
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth'
+      });
+    });
+  });
+</script>
 </body>
 </html>
-
