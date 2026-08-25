@@ -66,12 +66,48 @@ I am an **AI/ML & Software Engineer** specializing in machine learning, scalable
 
 ---
 
-### 📄 Selected Publications
+### 📄 Publications
 
-- **Applied Sciences (Journal, 2024):** *ShinyAnonymizer enhanced version and Beyond: A further exploration of Privacy Preserving Solutions in Health Data Management*
-- **IEEE IISA (2025):** *InviseeAI: Advanced Healthcare Data Anonymization Platform*
-- **EEITE (2026):** *A Privacy-Aware Machine Learning Model for IoT Ecosystems*
-- **IEEE ICCTA (2025):** *The role of Anonymization Techniques in Differential Privacy*
+**Journal Publications**
+* **ShinyAnonymizer enhanced version and Beyond: A further exploration of Privacy Preserving Solutions in Health Data Management**  
+  *M. Vardalachakis, N. Papadakis, M. Tampouratzis* | Applied Sciences, 2024  
+  🔗 DOI: [10.3390/app14166921](https://doi.org/10.3390/app14166921)
+
+**Conference Publications**
+* **InviseeAI: Advanced Healthcare Data Anonymization Platform**  
+  *M. Vardalachakis, A. Siatras, C. Kalloniatis* | IEEE IISA, 2025  
+  🔗 DOI: [10.1109/IISA66859.2025.11311319](https://doi.org/10.1109/IISA66859.2025.11311319)
+
+* **The role of Anonymization Techniques in Differential Privacy**  
+  *M. Vardalachakis, C. Kalloniatis* | IEEE ICCTA, 2025  
+  🔗 DOI: [10.1109/ICCTA65425.2025.11166256](https://doi.org/10.1109/ICCTA65425.2025.11166256)
+
+* **A Comprehensive Analysis of Features, Benefits, Challenges, and Best Practices of SIEM Solutions**  
+  *M. Vardalachakis, M. Vasilakis, M. Tampouratzis* | CSMF, 2025  
+  🔗 DOI: [10.3390/cmsf2025012018](https://doi.org/10.3390/cmsf2025012018)
+
+* **Approaches for Anonymization Methods in IoT Preservation Privacy**  
+  *M. Vasilakis, M. Vardalachakis, M. Tampouratzis* | IEEE EEITE, 2025  
+  🔗 DOI: [10.1109/EEITE65381.2025.11166166](https://doi.org/10.1109/EEITE65381.2025.11166166)
+
+* **Privacy Preservation in IoT: Anonymization Methods and Best Practices**  
+  *M. Vardalachakis, M. Tampouratzis* | CIEES, 2024  
+  🔗 DOI: [10.3390/app14166921](https://doi.org/10.3390/app14166921)
+
+* **The Future of Privacy: A Review on AI's Role in Shaping Data Security**  
+  *M. Vardalachakis, M. Tampouratzis, M. Vasilakis, N. Papadakis* | IEEE EEITE, 2024  
+  🔗 DOI: [10.1109/EEITE61750.2024.10654397](https://doi.org/10.1109/EEITE61750.2024.10654397)
+
+* **Anonymization, Hashing and Data Encryption Techniques: A Comparative Case Study**  
+  *M. Vardalachakis, H. Kondylakis, M. Tampouratzis, N. Papadakis, N. Mastorakis* | IEEE ICAMCS, 2023  
+  🔗 DOI: [10.1109/ICAMCS59110.2023.00028](https://doi.org/10.1109/ICAMCS59110.2023.00028)
+
+* **ShinyAnonymizer: A Tool for Anonymizing HealthData**  
+  *M. Vardalachakis, H. Kondylakis, L. Koumakis, A. Kouroubali, D. G. Katehakis* | ICT4AWE, 2019  
+  🔗 DOI: [10.5220/0007798603250332](https://doi.org/10.5220/0007798603250332)
+
+* **A Privacy-Aware Machine Learning Model for IoT Ecosystems**  
+  *M. Vardalachakis, M. Vasilakis, M. Tampouratzis* | EEITE, 2026 *(Accepted)*
 
 ---
 
