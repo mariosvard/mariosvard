@@ -69,20 +69,5 @@ I am an **AI/ML & Software Engineer** specializing in building deployable, expla
 
 ---
 
-### 📈 GitHub Stats
-
-![Marios's GitHub Stats](https://github-readme-stats.vercel.app/api?username=mariosggg&show_icons=true&theme=radial)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mariosggg&layout=compact&theme=radial)
-
----
-*“Building scalable, privacy-aware, and trustworthy AI systems for real-world impact.”*[cite: 2]
-
----
-
-### 📈 GitHub Stats
-
-![Marios's GitHub Stats](https://github-readme-stats.vercel.app/api?username=mariosggg&show_icons=true&theme=radial)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mariosggg&layout=compact&theme=radial)
-
 ---
 *“Building scalable, secure, and trustworthy AI systems for real-world impact.”*
