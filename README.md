@@ -12,7 +12,7 @@
 ### 🚀 About Me
 I am an **AI/ML & Software Engineer** specializing in building deployable, explainable, and trustworthy AI infrastructure, privacy-compliant machine learning systems, and secure full-stack software solutions. My core work balances scalability, security, compliance, and real-world practical use cases.
 
-- 🔭 **Currently Working On:** Leading technical architecture for **InviseeAI** (Horizon Europe SECURED), an advanced healthcare data anonymization & federated analytics platform.
+- 🔭 **Currently Working On:** TrustLearn, a privacy-preserving and trustworthy AI tutor.
 - 🎓 **Education:** 
   - **MPhil by Research in Intelligent Systems** (Grade: 9.50/10) | *University of the Aegean*
   - **M.Sc. in Software Engineering** (Grade: 7.50/10) | *Hellenic Mediterranean University*
