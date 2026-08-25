@@ -24,30 +24,29 @@ I am an **AI/ML & Software Engineer** specializing in building deployable, expla
 
 ### 🛠️ Technical & Research Skills
 
+
 ### 🛠️ Technical & Research Skills
-### 🛠️ Technical & Research Skills
 
-**Generative AI, LLMs & Agentic Systems**
-- `Generative AI & LLM Integration` `Prompt Engineering` `Retrieval-Augmented Generation (RAG)`
-- `AI Workflow Orchestration` `Agentic AI Concepts` `Tool-Calling Architectures` `Structured Outputs`
+**Generative AI & LLM Systems**
+- LLM Integration, Prompt Engineering, Retrieval-Augmented Generation (RAG), AI Workflow Orchestration, Agentic AI Concepts, Tool-Calling Architectures, Structured Outputs, LLM-Based Application Design
 
-**Machine Learning, AI & Trustworthy Systems**
-- `Privacy-Preserving ML` `Differential Privacy` `Federated Learning` `Secure Multiparty Computation (SMPC)`
-- `Trustworthy & Explainable AI` `Model Training & Evaluation` `Predictive Analytics` `Feature Engineering`
-- `PyTorch` `TensorFlow` `Scikit-Learn`
+**Machine Learning & AI**
+- Scikit-learn, PyTorch, TensorFlow, Model Training & Evaluation, Feature Engineering, Hyperparameter Tuning, Classification, Clustering, Regression, Predictive Analytics
 
-**Backend, MLOps & API Engineering**
-- `Python` `FastAPI` `Flask` `Django` `RESTful APIs` `Asynchronous Backend Architectures`
-- `MLOps Workflows` `Secure AI Infrastructure` `Modular System Design` `Swagger / OpenAPI`
-- `Docker` `CI/CD (GitHub Actions)` `Git`
+**Data & Analytics**
+- Python, R, Pandas, NumPy, SQL, PostgreSQL, ETL Pipelines, Statistical Analysis, Secure Data Processing
 
-**Databases & Data Engineering**
-- `PostgreSQL` `MySQL` `SQL` `Pandas` `NumPy` `R` `ETL Pipelines`
-- `Secure Data Processing` `Data Anonymization Workflows` `PySpark (Concepts)`
+**Data Visualization**
+- Matplotlib, Seaborn, D3.js, dc.js, Interactive Dashboards
 
-**Frontend, Web Development & Interactive Dashboards**
-- `JavaScript` `HTML5` `CSS3` `D3.js` `DC.js` `Crossfilter.js`
-- `Plotly` `Dash (Python)` `Shiny (R)` `Interactive Dashboards & Graph Analytics`
+**Web Development for AI Systems**
+- FastAPI, Flask, Django, REST APIs, JavaScript, HTML5, CSS, API-Based AI Applications
+
+**MLOps & AI Deployment**
+- Docker (basic), CI/CD with GitHub Actions, Model Deployment, API-Based ML Services, Evaluation Workflows
+
+**Big Data**
+- PySpark Familiarity, Distributed Data Processing Concepts
 
 ---
 
