@@ -1,6 +1,6 @@
 # Hi there, I'm Marios Vardalachakis 👋
 
-### AI/ML Engineer | Software Engineer | Privacy-Preserving AI, Trustworthy AI & Data Protection
+### AI/ML & Software Engineer building privacy-preserving, trustworthy, and scalable AI systems.
 
 📍 **Location:** Heraklion, Crete, Greece  
 📫 **Email:** [mariosvardalachakis@gmail.com](mailto:mariosvardalachakis@gmail.com) | [mvardalachakis@ihu.gr](mailto:mvardalachakis@ihu.gr)  
