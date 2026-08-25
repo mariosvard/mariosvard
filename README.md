@@ -123,19 +123,7 @@ I am an **AI/ML & Software Engineer** specializing in machine learning, scalable
 
 ---
 
-### 📊 GitHub Activity & Stats
-
-![Marios's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=mariosggg&theme=react-dark)
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=mariosggg&show_icons=true&theme=radial" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mariosggg&layout=compact&theme=radial" alt="Top Languages" width="48%" />
-</p>
-
----
 
 ### 🤝 Let's Connect!
 I am always open to discussing research collaborations, open-source AI projects, or software engineering opportunities. Feel free to reach out via [Email](mailto:mariosvardalachakis@gmail.com) or [LinkedIn](https://linkedin.com/in/mariosvard).
-
-*“Building scalable, privacy-aware, and trustworthy AI systems for real-world impact.”*
 
