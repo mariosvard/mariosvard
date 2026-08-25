@@ -1,55 +1,80 @@
 # Hi there, I'm Marios Vardalachakis 👋
-### AI & Software Engineer | Privacy-Preserving AI, Trustworthy AI & Data Protection
+### AI/ML Engineer | Software Engineer | Privacy-Preserving & Trustworthy AI Systems
 
 📍 Heraklion, Crete, Greece  
 📫 **Email:** [mariosvardalachakis@gmail.com](mailto:mariosvardalachakis@gmail.com) | [mvardalachakis@ihu.gr](mailto:mvardalachakis@ihu.gr)  
 🌐 **Portfolio:** [mariosvard.github.io/mariosvardalachakis](https://mariosvard.github.io/mariosvardalachakis)  
-💼 **LinkedIn:** [linkedin.com/in/mariosvard](https://linkedin.com/in/mariosvard) | **ResearchGate:** [Marios Vardalachakis](https://www.researchgate.net/)
+💼 **LinkedIn:** [linkedin.com/in/mariosvard](https://linkedin.com/in/mariosvard) | **ResearchGate:** [Marios Vardalachakis](https://www.researchgate.net/profile/Marios-Vardalachakis)
 
 ---
 
 ### 🚀 About Me
-I am an **AI/ML & Software Engineer** specializing in machine learning, scalable backends, and end-to-end intelligent system development. My core focus lies in translating research ideas into secure, practical software applications—with a strong emphasis on **Privacy-Preserving AI**, **Trustworthy AI**, and **Generative AI workflows**.
+I am an **AI/ML & Software Engineer** specializing in building deployable, explainable, and trustworthy AI infrastructure, privacy-compliant machine learning systems, and secure full-stack software solutions. My core work balances scalability, security, compliance, and real-world practical use cases.
 
-- 🔭 **Currently Working On:** Developing **InviseeAI**, a privacy-focused platform for healthcare data anonymization and federated analytics (Horizon Europe SECURED).
+- 🔭 **Currently Working On:** Leading technical architecture for **InviseeAI** (Horizon Europe SECURED), an advanced healthcare data anonymization & federated analytics platform.
 - 🎓 **Education:** 
-  - **MPhil by Research in Intelligent Systems** (Grade: 9.50/10) | *Univ. of the Aegean*
-  - **M.Sc. in Software Engineering** (Grade: 7.50/10) | *Hellenic Mediterranean Univ.*
-  - **B.Sc. in Informatics Engineering** | *Hellenic Mediterranean Univ.*
-- ⚡ **Core Focus:** Generative AI / LLMs, MLOps, Differential Privacy, Federated Learning, and RESTful API Architectures.
+  - **MPhil by Research in Intelligent Systems** (Grade: 9.50/10) | *University of the Aegean*
+  - **M.Sc. in Software Engineering** (Grade: 7.50/10) | *Hellenic Mediterranean University*
+  - **B.Sc. in Informatics Engineering** | *Hellenic Mediterranean University*
+- 🏆 **Recognitions:** Finalist at the *National Security Innovation Challenge* (EYP) with **SentiNeL**.
+- ⚡ **Core Focus:** Generative AI & LLM Workflows, Privacy-Preserving ML (Differential Privacy, Federated Learning), FastAPI Backends, and Threat Intelligence Analytics.
 
 ---
 
-### 🛠️ Tech Stack & Skills
+### 🛠️ Technical & Research Skills
 
-**AI, Machine Learning & LLMs**
+**Artificial Intelligence, Machine Learning & LLMs**
 - `Generative AI` `LLM Integration` `RAG` `Prompt Engineering` `Agentic AI` `Tool-Calling`
-- `PyTorch` `TensorFlow` `Scikit-Learn` `Model Training & Evaluation` `Predictive Analytics`
+- `Privacy-Preserving ML` `Differential Privacy` `Federated Learning` `Trustworthy & Explainable AI`
+- `PyTorch` `TensorFlow` `Scikit-Learn` `Predictive Analytics`
 
-**Data Engineering & Analytics**
-- `Python` `R` `Pandas` `NumPy` `SQL` `PostgreSQL` `ETL Pipelines` `PySpark`
+**Backend & API Engineering**
+- `Python` `FastAPI` `RESTful APIs` `Asynchronous Architectures` `Swagger / OpenAPI`
+- `MLOps Workflows` `Secure AI Infrastructure` `Modular System Design` `Git`
 
-**Software & Web Engineering**
-- `FastAPI` `Flask` `Django` `REST APIs` `JavaScript` `HTML5/CSS` `Docker` `GitHub Actions`
+**Databases & Data Engineering**
+- `PostgreSQL` `MySQL` `Secure Data Pipelines` `Data Anonymization Workflows` `ETL`
 
-**Data Visualization & Dashboards**
-- `D3.js` `dc.js` `Plotly` `Shiny (R)` `Matplotlib` `Seaborn` `Interactive Dashboards`
+**Frontend & Interactive Data Visualization**
+- `JavaScript` `HTML5/CSS3` `D3.js` `DC.js` `Crossfilter.js` `Plotly` `Dash (Python)` `Shiny (R)`
 
 ---
 
-### 🌟 Highlighted Projects
+### 🌟 Featured Projects
 
 * **[InviseeAI](https://github.com/mariosggg/InviseeAi)** — *Advanced Healthcare Data Anonymization Platform*  
-  Built a privacy-enhancing healthcare data platform using k-anonymity, l-diversity, t-closeness, differential privacy, and federated learning concepts. *(SECURED Open Call, Horizon Europe Grant No. 101095717)*
+  Employs k-anonymity, l-diversity, t-closeness, differential privacy, SMPC, and federated learning to protect confidentiality without sacrificing utility. *(Horizon Europe SECURED - Grant No. 101095717)*[cite: 2]
 
-* **SentiNeL** — *AI-Assisted Hybrid Threat Intelligence Platform*  
-  An explainable analytics platform for investigating online behavior, coordinated narratives, bot amplification, and hybrid threats. *(Finalist at National Security Innovation Challenge)*
+* **[SentiNeL](https://github.com/mariosvard/Sentinel-AI-Assisted-Hybrid-Threat-Intelligence-Platform)** — *AI-Assisted Hybrid Threat Intelligence Platform*  
+  An explainable analytics platform helping analysts investigate suspicious online behavior, coordinated narratives, bot amplification, and hybrid information threats. *(National Security Innovation Challenge Finalist)*[cite: 2]
 
-* **RiskSense** — *Predictive Intelligence for Early Health Monitoring*  
-  Interactive analytics dashboard combining environmental and contextual indicators for early health monitoring.
+* **[RiskSense](https://github.com/mariosvard/RiskSence)** — *Predictive Intelligence for Early Health Monitoring*  
+  An interactive dashboard combining weak environmental and contextual indicators into confidence-based scores for early health monitoring. *(Reimagining eHealth in Crete Hackathon Participant)*[cite: 2]
 
-* **IoT Malware Dashboard** — *Real-Time Cyber Threat Visualizer*  
-  Interactive dashboard for exploring IoT malware incidents, trends, and statistics in real time.
+* **[ShinyAnonymizer](https://github.com/mariosggg/ShinyAnonymizer)** — *Health Data Anonymization Tool*  
+  Open-source tool applying rigorous privacy, hashing, and encryption to sensitive medical datasets connecting to PostgreSQL or flat files. *(Horizon 2020 iManageCancer)*[cite: 2]
+
+* **[IoT Malware Dashboard](https://github.com/mariosggg/IotMalwareDashboard)** — *Real-Time Cyber Threat Visualizer*  
+  Interactive analytics dashboard for exploring IoT malware incidents, trends, and statistics in real time.[cite: 2]
+
+---
+
+### 📄 Selected Publications
+
+- **Journal:** *ShinyAnonymizer enhanced version and Beyond: A further exploration of Privacy Preserving Solutions in Health Data Management*, Applied Sciences, 2024.[cite: 2]
+- **Conference:** *InviseeAI: Advanced Healthcare Data Anonymization Platform*, IEEE IISA 2025.[cite: 2]
+- **Conference:** *A Privacy-Aware Machine Learning Model for IoT Ecosystems*, EEITE 2026.[cite: 2]
+- **Conference:** *The role of Anonymization Techniques in Differential Privacy*, IEEE ICCTA 2025.[cite: 2]
+
+---
+
+### 📈 GitHub Stats
+
+![Marios's GitHub Stats](https://github-readme-stats.vercel.app/api?username=mariosggg&show_icons=true&theme=radial)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mariosggg&layout=compact&theme=radial)
+
+---
+*“Building scalable, privacy-aware, and trustworthy AI systems for real-world impact.”*[cite: 2]
 
 ---
 
