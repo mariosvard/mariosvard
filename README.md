@@ -24,9 +24,6 @@ I am an **AI/ML & Software Engineer** specializing in building deployable, expla
 
 ### 🛠️ Technical & Research Skills
 
-
-### 🛠️ Technical & Research Skills
-
 **Generative AI & LLM Systems**
 - LLM Integration, Prompt Engineering, Retrieval-Augmented Generation (RAG), AI Workflow Orchestration, Agentic AI Concepts, Tool-Calling Architectures, Structured Outputs, LLM-Based Application Design
 
