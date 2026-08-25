@@ -1,11 +1,11 @@
 # Hi there, I'm Marios Vardalachakis 👋
 ### AI/ML Engineer | Software Engineer | Privacy-Preserving & Trustworthy AI Systems
 
-📍 Heraklion, Crete, Greece[cite: 1, 2]  
-📫 **Email:** [mariosvardalachakis@gmail.com](mailto:mariosvardalachakis@gmail.com) | [mvardalachakis@ihu.gr](mailto:mvardalachakis@ihu.gr)[cite: 1, 2]  
-🌐 **Portfolio:** [mariosvard.github.io/mariosvardalachakis](https://mariosvard.github.io/mariosvardalachakis)[cite: 1, 2]  
-💼 **LinkedIn:** [linkedin.com/in/mariosvard](https://linkedin.com/in/mariosvard)[cite: 1, 2]  
-🔬 **ResearchGate:** [Marios Vardalachakis](https://www.researchgate.net/profile/Marios-Vardalachakis)[cite: 2]
+📍 Heraklion, Crete, Greece 
+📫 **Email:** [mariosvardalachakis@gmail.com](mailto:mariosvardalachakis@gmail.com) | [mvardalachakis@ihu.gr](mailto:mvardalachakis@ihu.gr)
+🌐 **Portfolio:** [mariosvard.github.io/mariosvardalachakis](https://mariosvard.github.io/mariosvardalachakis)
+💼 **LinkedIn:** [linkedin.com/in/mariosvard](https://linkedin.com/in/mariosvard)  
+🔬 **ResearchGate:** [Marios Vardalachakis](https://www.researchgate.net/profile/Marios-Vardalachakis)
 
 ---
 
