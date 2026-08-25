@@ -115,5 +115,6 @@ I am an **AI/ML & Software Engineer** specializing in machine learning, scalable
 
 
 ### 🤝 Let's Connect!
-I am always open to discussing research collaborations, open-source AI projects, or software engineering opportunities. Feel free to reach out via [Email](mailto:mariosvardalachakis@gmail.com) or [LinkedIn](https://linkedin.com/in/mariosvard).
+I am always open to discussing research collaborations, open-source AI projects, or software engineering opportunities. Feel free to reach out via 
+[Email](mailto:mariosvardalachakis@gmail.com) or [LinkedIn](https://linkedin.com/in/mariosvard).
 
