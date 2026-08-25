@@ -4,7 +4,8 @@
 📍 Heraklion, Crete, Greece  
 📫 **Email:** [mariosvardalachakis@gmail.com](mailto:mariosvardalachakis@gmail.com) | [mvardalachakis@ihu.gr](mailto:mvardalachakis@ihu.gr)  
 🌐 **Portfolio:** [mariosvard.github.io/mariosvardalachakis](https://mariosvard.github.io/mariosvardalachakis)  
-💼 **LinkedIn:** [linkedin.com/in/mariosvard](https://linkedin.com/in/mariosvard) | **ResearchGate:** [Marios Vardalachakis](https://www.researchgate.net/profile/Marios-Vardalachakis)
+💼 **LinkedIn:** [linkedin.com/in/mariosvard](https://linkedin.com/in/mariosvard) | 
+**ResearchGate:** [Marios Vardalachakis](https://www.researchgate.net/profile/Marios-Vardalachakis)
 
 ---
 
