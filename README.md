@@ -24,20 +24,33 @@ I am an **AI/ML & Software Engineer** specializing in building deployable, expla
 
 ### 🛠️ Technical & Research Skills
 
-**Artificial Intelligence, Machine Learning & LLMs**
-- `Generative AI` `LLM Integration` `RAG` `Prompt Engineering` `Agentic AI` `Tool-Calling`
-- `Privacy-Preserving ML` `Differential Privacy` `Federated Learning` `Trustworthy & Explainable AI`
-- `PyTorch` `TensorFlow` `Scikit-Learn` `Predictive Analytics`
+### 🛠️ Technical & Research Skills
 
-**Backend & API Engineering**
-- `Python` `FastAPI` `RESTful APIs` `Asynchronous Architectures` `Swagger / OpenAPI`
-- `MLOps Workflows` `Secure AI Infrastructure` `Modular System Design` `Git`
+**Generative AI & LLM Systems**
+- `LLM Integration` `Prompt Engineering` `Retrieval-Augmented Generation (RAG)`
+- `AI Workflow Orchestration` `Agentic AI Concepts` `Tool-Calling Architectures`
+- `Structured Outputs` `LLM-Based Application Design`
 
-**Databases & Data Engineering**
-- `PostgreSQL` `MySQL` `Secure Data Pipelines` `Data Anonymization Workflows` `ETL`
+**Machine Learning & AI**
+- `Scikit-learn` `PyTorch` `TensorFlow` `Model Training & Evaluation`
+- `Feature Engineering` `Hyperparameter Tuning` `Classification` `Clustering`
+- `Regression` `Predictive Analytics`
 
-**Frontend & Interactive Data Visualization**
-- `JavaScript` `HTML5/CSS3` `D3.js` `DC.js` `Crossfilter.js` `Plotly` `Dash (Python)` `Shiny (R)`
+**Data & Analytics**
+- `Python` `R` `Pandas` `NumPy` `SQL` `PostgreSQL`
+- `ETL Pipelines` `Statistical Analysis` `Secure Data Processing`
+
+**Data Visualization**
+- `Matplotlib` `Seaborn` `D3.js` `dc.js` `Interactive Dashboards`
+
+**Web Development for AI Systems**
+- `FastAPI` `Flask` `Django` `REST APIs` `JavaScript` `HTML5` `CSS` `API-Based AI Applications`
+
+**MLOps & AI Deployment**
+- `Docker (Basic)` `CI/CD with GitHub Actions` `Model Deployment` `API-Based ML Services` `Evaluation Workflows`
+
+**Big Data**
+- `PySpark Familiarity` `Distributed Data Processing Concepts`
 
 ---
 
