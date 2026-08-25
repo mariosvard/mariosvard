@@ -12,7 +12,7 @@
 ### 🚀 About Me
 I am an **AI/ML & Software Engineer** specializing in machine learning, scalable backends, and end-to-end intelligent system development. My work focuses on translating research ideas into secure, practical software applications—balancing scalability, security, compliance, and real-world utility.
 
-- 🔭 **Currently Working On:** Technical lead and developer for **InviseeAI** (Horizon Europe SECURED), an advanced healthcare data anonymization & federated analytics platform.
+- 🔭 **Currently Working On:** TrustLearn, a privacy-preserving and trustworthy AI tutor.
 - 🎓 **Education:** 
   - **MPhil by Research in Intelligent Systems** (Grade: 9.50/10) | *University of the Aegean*
   - **M.Sc. in Software Engineering** (Grade: 7.50/10) | *Hellenic Mediterranean University*
