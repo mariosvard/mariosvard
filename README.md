@@ -6,7 +6,7 @@
 📫 **Email:** [mariosvardalachakis@gmail.com](mailto:mariosvardalachakis@gmail.com) | [mvardalachakis@ihu.gr](mailto:mvardalachakis@ihu.gr)  
 🌐 **Portfolio:** [mariosvard.github.io](https://mariosvard.github.io/mariosvardalachakis)  
 💼 **LinkedIn:** [linkedin.com/in/mariosvard](https://linkedin.com/in/mariosvard)  
-🔬 **ResearchGate:** [Marios Vardalachakis](https://www.researchgate.net/profile/Marios-Vardalachakis)
+🔬 **ResearchGate:** [Marios Vardalachakis](https://www.researchgate.net/profile/Marios-Vardalachakis)  
 
 ---
 
@@ -20,6 +20,18 @@ I am an **AI/ML & Software Engineer** specializing in machine learning, scalable
   - **B.Sc. in Informatics Engineering** | *Hellenic Mediterranean University*
 - 🏆 **Recognitions:** Finalist at the *National Security Innovation Challenge* (EYP) with **SentiNeL**.
 - ⚡ **Core Focus:** Generative AI & LLMs, Privacy-Preserving AI, Trustworthy AI & Data Protection, Software Engineering, Interactive Data Visualization Dashboards and Scalable REST APIs.
+
+---
+
+### 💻 Core Tech Stack
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
 ---
 
 ### 🛠️ Technical & Research Skills
@@ -111,4 +123,19 @@ I am an **AI/ML & Software Engineer** specializing in machine learning, scalable
 
 ---
 
+### 📊 GitHub Activity & Stats
+
+![Marios's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=mariosggg&theme=react-dark)
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=mariosggg&show_icons=true&theme=radial" alt="GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mariosggg&layout=compact&theme=radial" alt="Top Languages" width="48%" />
+</p>
+
+---
+
+### 🤝 Let's Connect!
+I am always open to discussing research collaborations, open-source AI projects, or software engineering opportunities. Feel free to reach out via [Email](mailto:mariosvardalachakis@gmail.com) or [LinkedIn](https://linkedin.com/in/mariosvard).
+
+*“Building scalable, privacy-aware, and trustworthy AI systems for real-world impact.”*
 
