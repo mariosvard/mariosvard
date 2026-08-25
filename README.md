@@ -112,4 +112,3 @@ I am an **AI/ML & Software Engineer** specializing in machine learning, scalable
 ---
 
 
-*“Building scalable, privacy-aware, and trustworthy AI systems for real-world impact.”*
