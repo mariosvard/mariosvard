@@ -18,7 +18,7 @@ I am an **AI/ML & Software Engineer** specializing in machine learning, scalable
   - **M.Sc. in Software Engineering** (Grade: 7.50/10) | *Hellenic Mediterranean University*
   - **B.Sc. in Informatics Engineering** | *Hellenic Mediterranean University*
 - 🏆 **Recognitions:** Finalist at the *National Security Innovation Challenge* (EYP) with **SentiNeL**.
-- ⚡ **Core Focus:** Generative AI & LLMs, Privacy-Preserving AI,Trustworthy AI & Data Protection , Software Engineering , Interactive Data Visualization Dashboards and Scalable REST APIs.
+* ⚡ **Core Focus:** Generative AI & LLMs, Privacy-Preserving AI, Trustworthy AI & Data Protection, Software Engineering, Interactive Data Visualization Dashboards and Scalable REST APIs.
 
 ---
 
