@@ -8,25 +8,24 @@ My work combines **Generative AI and LLM applications, machine learning, privacy
 
 I am interested in building AI systems that are not only intelligent, but also **secure, explainable, privacy-aware, and deployable**.
 
----
-
-## 📫 Connect With Me
-
-- 📍 **Location:** Heraklion, Crete, Greece
-- 📧 **Email:** [mariosvardalachakis@gmail.com](mailto:mariosvardalachakis@gmail.com)
-- 🌐 **Portfolio:** [mariosvard.github.io](https://mariosvard.github.io/mariosvardalachakis)
-- 💼 **LinkedIn:** [linkedin.com/in/mariosvard](https://linkedin.com/in/mariosvard)
-- 🔬 **ResearchGate:** [Marios Vardalachakis](https://www.researchgate.net/profile/Marios-Vardalachakis)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=mariosvard&show_icons=true&theme=tokyonight&count_private=true&hide_border=true" alt="Marios' GitHub Stats" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mariosvard&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" height="165" />
+</p>
 
 ---
 
 ## 🚀 About Me
 
-I am an **AI/ML Engineer & Researcher** specializing in machine learning, Generative AI, privacy-preserving technologies, secure AI systems, and scalable software engineering.
+I am an **AI/ML Engineer & Researcher** based in **Heraklion, Crete, Greece**, specializing in machine learning, Generative AI, privacy-preserving technologies, secure AI systems, and scalable software engineering.
 
 My work focuses on translating **research concepts into practical intelligent systems**, combining AI capabilities with privacy, security, explainability, and real-world usability.
 
 ### Current Focus
+
+![Generative AI](https://img.shields.io/badge/Focus-Generative%20AI%20%26%20LLMs-8A2BE2?style=for-the-badge&logo=openai&logoColor=white)
+![Privacy AI](https://img.shields.io/badge/Focus-Privacy--Preserving%20AI-008080?style=for-the-badge&logo=shield&logoColor=white)
+![Trustworthy AI](https://img.shields.io/badge/Focus-Trustworthy%20AI%20%26%20Security-4682B4?style=for-the-badge&logo=lock&logoColor=white)
 
 - 🔭 **Currently Working On:** TrustLearn — a privacy-preserving and trustworthy AI tutor
 - 🧠 **Focus:** Generative AI, LLMs, Privacy-Preserving AI, Trustworthy AI & Secure AI
@@ -54,7 +53,6 @@ My work focuses on translating **research concepts into practical intelligent sy
 ## 🧠 Core Expertise
 
 ### Generative AI & LLM Systems
-
 - LLM Integration
 - Prompt Engineering
 - Retrieval-Augmented Generation (RAG)
@@ -65,7 +63,6 @@ My work focuses on translating **research concepts into practical intelligent sy
 - LLM-Based Application Design
 
 ### Machine Learning & AI
-
 - Scikit-learn
 - PyTorch
 - TensorFlow
@@ -78,7 +75,6 @@ My work focuses on translating **research concepts into practical intelligent sy
 - Predictive Analytics
 
 ### Privacy-Preserving & Trustworthy AI
-
 - Differential Privacy
 - Federated Learning
 - k-Anonymity
@@ -91,7 +87,6 @@ My work focuses on translating **research concepts into practical intelligent sy
 - Data Protection
 
 ### Data & Analytics
-
 - Python
 - R
 - Pandas
@@ -103,7 +98,6 @@ My work focuses on translating **research concepts into practical intelligent sy
 - Secure Data Processing
 
 ### Backend & AI Engineering
-
 - FastAPI
 - Flask
 - Django
@@ -114,7 +108,6 @@ My work focuses on translating **research concepts into practical intelligent sy
 - API-Based AI Applications
 
 ### Data Visualization
-
 - Matplotlib
 - Seaborn
 - Plotly
@@ -123,7 +116,6 @@ My work focuses on translating **research concepts into practical intelligent sy
 - Interactive Dashboards
 
 ### MLOps & Deployment
-
 - Docker
 - Git
 - GitHub Actions
@@ -133,7 +125,6 @@ My work focuses on translating **research concepts into practical intelligent sy
 - AI Evaluation Workflows
 
 ### Big Data
-
 - PySpark
 - Distributed Data Processing Concepts
 
@@ -141,12 +132,19 @@ My work focuses on translating **research concepts into practical intelligent sy
 
 ## ⭐ Featured Projects
 
-### 🔐 [InviseeAI](https://github.com/mariosggg/InviseeAi)
+| Project | Domain | Tech Stack | Core Privacy / Security Mechanism |
+| :--- | :--- | :--- | :--- |
+| **InviseeAI** | Healthcare Privacy | Python, PyTorch, Differential Privacy | $k$-anonymity, $l$-diversity, SMPC, Federated Learning |
+| **SentiNeL** | Threat Intelligence | LLMs, FastAPI, D3.js | Explainable Bot Amplification & Information Threat Analytics |
+| **RiskSense** | Health Monitoring | Machine Learning, REST APIs | Environmental & Contextual Indicator Scoring |
+| **ShinyAnonymizer** | Health Data | R, Shiny, Encryption | Dataset Anonymization, Hashing, & Dynamic Analysis |
 
+<br>
+
+### 🔐 [InviseeAI](https://github.com/mariosggg/InviseeAi)
 **Advanced Healthcare Data Anonymization Platform**
 
 A privacy-preserving healthcare data platform combining multiple privacy-enhancing technologies:
-
 - k-Anonymity
 - l-Diversity
 - t-Closeness
@@ -159,11 +157,9 @@ Developed in the context of the **SECURED Open Call / Horizon Europe — Grant N
 ---
 
 ### 🛡️ [SentiNeL](https://github.com/mariosvard/Sentinel-AI-Assisted-Hybrid-Threat-Intelligence-Platform)
-
 **AI-Assisted Hybrid Threat Intelligence Platform**
 
 An explainable AI analytics platform designed to investigate:
-
 - Online behavioral patterns
 - Coordinated narratives
 - Bot amplification
@@ -175,7 +171,6 @@ An explainable AI analytics platform designed to investigate:
 ---
 
 ### 🏥 [RiskSense](https://github.com/mariosvard/RiskSence)
-
 **Predictive Intelligence for Early Health Monitoring**
 
 An interactive analytical system combining environmental and contextual indicators into confidence-based scores for early health monitoring.
@@ -183,11 +178,9 @@ An interactive analytical system combining environmental and contextual indicato
 ---
 
 ### 🔒 [ShinyAnonymizer](https://github.com/mariosggg/ShinyAnonymizer)
-
 **Health Data Anonymization Platform**
 
 An R-based application for protecting sensitive healthcare datasets through:
-
 - Data anonymization
 - Hashing
 - Encryption
@@ -198,7 +191,6 @@ Developed in the context of **Horizon 2020 iManageCancer**.
 ---
 
 ### 🦠 [IoT Malware Dashboard](https://github.com/mariosggg/IotMalwareDashboard)
-
 **Real-Time Cyber Threat Visualization**
 
 An interactive analytics dashboard for exploring IoT malware incidents, trends, and statistics.
@@ -210,7 +202,6 @@ An interactive analytics dashboard for exploring IoT malware incidents, trends, 
 My research interests lie at the intersection of **Artificial Intelligence, Privacy, Security, and Software Engineering**.
 
 ### Main Research Areas
-
 - 🤖 Generative AI & Large Language Models
 - 🔐 Privacy-Preserving AI
 - 🛡️ Secure AI & Cybersecurity
@@ -228,7 +219,6 @@ I am particularly interested in developing AI systems that balance **performance
 ## 📚 Selected Publications
 
 ### Journal Publications
-
 **ShinyAnonymizer enhanced version and Beyond: A further exploration of Privacy Preserving Solutions in Health Data Management**  
 *M. Vardalachakis, N. Papadakis, M. Tampouratzis*  
 *Applied Sciences, 2024*  
@@ -237,7 +227,6 @@ I am particularly interested in developing AI systems that balance **performance
 ---
 
 ### Conference Publications
-
 **InviseeAI: Advanced Healthcare Data Anonymization Platform**  
 *M. Vardalachakis, A. Siatras, C. Kalloniatis*  
 *IEEE IISA, 2025*  
@@ -286,83 +275,25 @@ I am particularly interested in developing AI systems that balance **performance
 ## 🛠️ Languages & Technologies
 
 <p align="left">
-
-<a href="https://www.python.org">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40"/>
-</a>
-
-<a href="https://pytorch.org/">
-<img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="PyTorch" width="40" height="40"/>
-</a>
-
-<a href="https://www.tensorflow.org">
-<img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="TensorFlow" width="40" height="40"/>
-</a>
-
-<a href="https://scikit-learn.org/">
-<img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="Scikit-learn" width="40" height="40"/>
-</a>
-
-<a href="https://www.r-project.org/">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/r/r-original.svg" alt="R" width="40" height="40"/>
-</a>
-
-<a href="https://fastapi.tiangolo.com/">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" alt="FastAPI" width="40" height="40"/>
-</a>
-
-<a href="https://www.djangoproject.com/">
-<img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="Django" width="40" height="40"/>
-</a>
-
-<a href="https://www.docker.com/">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="Docker" width="40" height="40"/>
-</a>
-
-<a href="https://www.postgresql.org">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="PostgreSQL" width="40" height="40"/>
-</a>
-
-<a href="https://www.mysql.com/">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" width="40" height="40"/>
-</a>
-
-<a href="https://git-scm.com/">
-<img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="40" height="40"/>
-</a>
-
-<a href="https://github.com/features/actions">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/githubactions/githubactions-original.svg" alt="GitHub Actions" width="40" height="40"/>
-</a>
-
-<a href="https://numpy.org/">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg" alt="NumPy" width="40" height="40"/>
-</a>
-
-<a href="https://pandas.pydata.org/">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" alt="Pandas" width="40" height="40"/>
-</a>
-
-<a href="https://d3js.org/">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/d3js/d3js-original.svg" alt="D3.js" width="40" height="40"/>
-</a>
-
-<a href="https://www.chartjs.org">
-<img src="https://www.chartjs.org/media/logo-title.svg" alt="Chart.js" width="40" height="40"/>
-</a>
-
-<a href="https://angular.io">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original-wordmark.svg" alt="Angular" width="40" height="40"/>
-</a>
-
-<a href="https://react.dev/">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="React" width="40" height="40"/>
-</a>
-
-<a href="https://www.linux.org/">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux" width="40" height="40"/>
-</a>
-
+<a href="https://www.python.org"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40"/></a>
+<a href="https://pytorch.org/"><img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="PyTorch" width="40" height="40"/></a>
+<a href="https://www.tensorflow.org"><img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="TensorFlow" width="40" height="40"/></a>
+<a href="https://scikit-learn.org/"><img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="Scikit-learn" width="40" height="40"/></a>
+<a href="https://www.r-project.org/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/r/r-original.svg" alt="R" width="40" height="40"/></a>
+<a href="https://fastapi.tiangolo.com/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" alt="FastAPI" width="40" height="40"/></a>
+<a href="https://www.djangoproject.com/"><img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="Django" width="40" height="40"/></a>
+<a href="https://www.docker.com/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="Docker" width="40" height="40"/></a>
+<a href="https://www.postgresql.org"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="PostgreSQL" width="40" height="40"/></a>
+<a href="https://www.mysql.com/"><img src="https://www.vectorlogo.zone/logos/mysql/mysql-official.svg" alt="MySQL" width="40" height="40"/></a>
+<a href="https://git-scm.com/"><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="40" height="40"/></a>
+<a href="https://github.com/features/actions"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/githubactions/githubactions-original.svg" alt="GitHub Actions" width="40" height="40"/></a>
+<a href="https://numpy.org/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg" alt="NumPy" width="40" height="40"/></a>
+<a href="https://pandas.pydata.org/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" alt="Pandas" width="40" height="40"/></a>
+<a href="https://d3js.org/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/d3js/d3js-original.svg" alt="D3.js" width="40" height="40"/></a>
+<a href="https://www.chartjs.org"><img src="https://www.chartjs.org/media/logo-title.svg" alt="Chart.js" width="40" height="40"/></a>
+<a href="https://angular.io"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original-wordmark.svg" alt="Angular" width="40" height="40"/></a>
+<a href="https://react.dev/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="React" width="40" height="40"/></a>
+<a href="https://www.linux.org/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux" width="40" height="40"/></a>
 </p>
 
 ---
@@ -370,7 +301,6 @@ I am particularly interested in developing AI systems that balance **performance
 ## 🤝 Let's Connect
 
 I am open to:
-
 - 🤖 AI/ML Engineering opportunities
 - 🧠 AI Research opportunities
 - 🔐 Privacy-Preserving AI projects
@@ -380,12 +310,9 @@ I am open to:
 - 💻 Open-source AI projects
 - 🌍 International and remote opportunities
 
-If you are working on **AI systems where performance, privacy, security, and trust matter**, feel free to connect.
+If you are working on **AI systems where performance, privacy, security, and trust matter**, feel free to reach out:
 
-📧 **Email:** [mariosvardalachakis@gmail.com](mailto:mariosvardalachakis@gmail.com)
-
-💼 **LinkedIn:** [linkedin.com/in/mariosvard](https://linkedin.com/in/mariosvard)
-
-🌐 **Portfolio:** [mariosvard.github.io](https://mariosvard.github.io/mariosvardalachakis)
-
+📧 **Email:** [mariosvardalachakis@gmail.com](mailto:mariosvardalachakis@gmail.com)  
+💼 **LinkedIn:** [linkedin.com/in/mariosvard](https://linkedin.com/in/mariosvard)  
+🌐 **Portfolio:** [mariosvard.github.io](https://mariosvard.github.io/mariosvardalachakis)  
 🔬 **ResearchGate:** [Marios Vardalachakis](https://www.researchgate.net/profile/Marios-Vardalachakis)
