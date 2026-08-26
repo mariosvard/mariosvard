@@ -12,7 +12,7 @@ I am interested in building AI systems that are not only intelligent, but also *
 
 ## 🚀 About Me
 
-I am an **AI/ML Engineer & Researcher** based in **Heraklion, Crete, Greece**, specializing in machine learning, Generative AI, privacy-preserving technologies, secure AI systems, and scalable software engineering.
+I am an **AI/ML Engineer & Software Engineer** based in **Heraklion, Crete, Greece**, specializing in machine learning, Generative AI, privacy-preserving technologies, secure AI systems, and scalable software engineering.
 
 My work focuses on translating **research concepts into practical intelligent systems**, combining AI capabilities with privacy, security, explainability, and real-world usability.
 
