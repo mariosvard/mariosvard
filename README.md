@@ -8,11 +8,6 @@ My work combines **Generative AI and LLM applications, machine learning, privacy
 
 I am interested in building AI systems that are not only intelligent, but also **secure, explainable, privacy-aware, and deployable**.
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=mariosvard&show_icons=true&theme=tokyonight&count_private=true&hide_border=true" alt="Marios' GitHub Stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mariosvard&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" height="165" />
-</p>
-
 ---
 
 ## 🚀 About Me
