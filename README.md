@@ -1,6 +1,6 @@
 # Marios Vardalachakis 👋
 
-### AI/ML Engineer & Researcher | Generative AI & LLMs | Privacy-Preserving & Trustworthy AI | Secure AI Systems
+### AI/ML Engineer & Software Engineer | Generative AI & LLMs | Privacy-Preserving & Trustworthy AI | Secure AI Systems
 
 I build **AI/ML systems that turn research into practical, scalable, and trustworthy software**.
 
